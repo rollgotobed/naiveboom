@@ -10,7 +10,7 @@ module.exports = {
 	// redis Hash列表名
 	field_lists: 'naives',
 	// 1小时内单个IP可获取最多临时链接数
-	rate_limit: 500,
+	rate_limit: 100000,
 	// 是否显示首页中的作死文本 eg.「☭赵」
 	isZhao: false,
 	// 用于匹配GUID的正则
