@@ -2,6 +2,8 @@ extends layout
 block content
 	#app
 		<div v-if='status==1'>
+		h6 <span style="color:red;font-size:15px;">为了各位的人身安全，建议不要将此页面显示的信息以不安全的途径发送</span>
+		hr
 		pre {{ text }}
 		</div>
 		<div v-else-if='status==0'>
